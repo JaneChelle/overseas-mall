@@ -359,9 +359,9 @@ export const products = [
         price: 29.99,
         currency: 'USD',
         images: [
-            'https://images.unsplash.com/photo-1591290619762-c588dcbff8cc?w=800&q=80',
+            'https://images.unsplash.com/photo-1624823183493-ed5832f48f18?w=800&q=80',
         ],
-        thumbnail: 'https://images.unsplash.com/photo-1591290619762-c588dcbff8cc?w=400&q=80',
+        thumbnail: 'https://images.unsplash.com/photo-1624823183493-ed5832f48f18?w=400&q=80',
         category: 'Electronics',
         rating: 4.5,
         reviewCount: 491,
