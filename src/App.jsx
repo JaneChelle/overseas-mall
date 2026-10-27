@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './contexts/CartContext';
 import { SearchProvider } from './contexts/SearchContext';
 import Layout from './components/Layout/Layout';
@@ -10,7 +10,7 @@ function App() {
     return (
         <CartProvider>
             <SearchProvider>
-                <Router basename="/overseas-mall">
+                <Router>
                     <Routes>
                         <Route path="/" element={<Layout />}>
                             <Route index element={<HomePage />} />
