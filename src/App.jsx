@@ -10,7 +10,7 @@ function App() {
     return (
         <CartProvider>
             <SearchProvider>
-                <Router>
+                <Router basename="/overseas-mall">
                     <Routes>
                         <Route path="/" element={<Layout />}>
                             <Route index element={<HomePage />} />
